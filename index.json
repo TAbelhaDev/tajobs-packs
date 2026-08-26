@@ -1,0 +1,13 @@
+{
+  "packs": [
+    {
+      "name": "model-monitor",
+      "description": "Alerta quando modelo gratis vira pago, quando preco muda nos providers da watchlist, e quando surge modelo novo gratis em qualquer provider (via models.dev)",
+      "author": "ianptkcs",
+      "source": "https://github.com/TabelaDev/tjobs-packs",
+      "subdir": "model-monitor",
+      "tags": ["llm", "precos", "monitoramento"],
+      "schedule": "*-*-* 00/6:00:00"
+    }
+  ]
+}

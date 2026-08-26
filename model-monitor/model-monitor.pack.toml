@@ -1,0 +1,5 @@
+name = "model-monitor"
+description = "Vigia precos de LLM: alerta quando um modelo gratis vira pago, quando preco sobe nos providers que voce usa, e quando aparece modelo novo gratis em qualquer provider"
+author = "ianptkcs"
+source = "https://github.com/TabelaDev/tjobs-packs"
+schedule = "*-*-* 00/6:00:00"
