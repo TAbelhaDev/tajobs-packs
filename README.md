@@ -12,11 +12,11 @@
 
 ---
 
-Registry of job packs for [tjobs](https://github.com/ianptkcs/tabelajobs):
+Registry of job packs for [tjobs](https://github.com/TAbelhaDev/tajobs):
 shareable terminal jobs that anyone installs with a single command, reviews,
 and only then arms.
 
-A **pack** is an ordinary [tjobs job directory](https://github.com/ianptkcs/tabelajobs#the-job-convention)
+A **pack** is an ordinary [tjobs job directory](https://github.com/TAbelhaDev/tajobs#the-job-convention)
 plus a `<name>.pack.toml` manifest. Installing never runs anything: a pack
 with a suggested schedule lands as a **paused timer**, one without lands as a
 **manual job**. You read the script first; the schedule only fires after you
@@ -69,7 +69,7 @@ schedule = "*-*-* 09:00:00"                          # optional suggested OnCale
 
 Rules of thumb:
 
-- Scripts must follow the [tjobs job convention](https://github.com/ianptkcs/tabelajobs/blob/main/instructions.md)
+- Scripts must follow the [tjobs job convention](https://github.com/TAbelhaDev/tajobs/blob/main/instructions.md)
   (`set -euo pipefail`, self-cleanup tail for one-shots, none for recurring).
 - Network-touching jobs must wait for connectivity before doing anything.
 - Keep packs flat: script + manifest + optional notes/sidecars. Logs are
